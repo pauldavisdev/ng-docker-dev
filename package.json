@@ -1,5 +1,5 @@
 {
-  "name": "pdavis-app",
+  "name": "ng-docker-dev",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
