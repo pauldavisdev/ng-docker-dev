@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "docker-dev": "docker run -i --rm -p 4200:4200 -v \"$(pwd)/src:/app/src\" ng-docker-dev-container"
   },
   "private": true,
   "dependencies": {
